@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- BT1 -->
+  <div class="container">
+    <h1>Bài 1</h1>
+    <h3>Tìm số nguyên dương n nhỏ nhất sao cho: 1 + 2 + ... + n > 100000</h3>
+    <div class="mb-3">
+      <input type="text" class="form-control w-25" id="soN" placeholder="Nhập số n">
+    </div>
+    <button onclick="timSoN()" class="btn btn-danger">Kết quả</button>
+    <div id="ketQua"></div>
+  </div>
+  <hr class="opacity-100">
+
+  <!-- BT2 -->
+  <div class="container">
+    <h1>Bài 2</h1>
+    <h3>Viết chương trình nhập vào 2 số x và k. Tính tổng: S(n) = x + x^2 + x^3 +...+ x^k</h3>
+    <div class="mb-3">
+      <input type="text" class="form-control w-25" id="soX" placeholder="Nhập vào số x">
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control w-25" id="soK" placeholder="Nhập vào số k">
+    </div>
+    <button onclick="tinhTong()" class="btn btn-success">Xuất kết quả</button>
+    <div id="xuatKetQua"></div>
+  </div>
+  <hr class="opacity-100">
+
+  <!-- BT3 -->
+  <div class="container">
+    <h1>Bài 3</h1>
+    <h3>Viết chương trình nhập vào số z. Tính giai thừa 1*2*...n</h3>
+    <div class="mb-3">
+      <input type="text" class="form-control w-25" id="soZ" placeholder="Nhập số z">
+    </div>
+    <button onclick="tinhGiaiThua()" class="btn btn-info">Hiển thị kết quả</button>
+    <div id="hienThiKetQua"></div>
+  </div>
+  <hr class="opacity-100">
+
+
+  <!-- BT4 -->
+  <div class="container">
+    <h1>Bài 4</h1>
+    <h3>Viết chương trình khi click vào nút button sẽ in ra 10 thẻ div. Nếu div nào ử vị trí chẳn thì background màu đỏ
+      và lẻ thì background xanh</h3>
+    <button onclick="in10TheDiv()" class="btn btn-light">In 10 thẻ div</button>
+    <div id="theDiv"></div>
+    <div id="in10theDiv"></div>
+  </div>
+  <hr class="opacity-100">
+
+  <!-- BT5  -->
+  <div class="container">
+    <h1>Bài 5</h1>
+    <h3>Viết chương trình có 1 ô input và 1 button. Khi click vào button thì in ra các số nguyên tố từ 1 tới giá trị của
+      ô input</h3>
+    <div class="mb-3">
+      <input type="text" class="form-control w-25" id="soM" placeholder="Nhập số m">
+    </div>
+    <button onclick="timSoNguyenTo()" class="btn btn-dark">Tính kết quả</button>
+    <div id="tinhKetQua" class="pb-5"></div>
+  </div>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
